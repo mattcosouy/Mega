@@ -1,0 +1,20 @@
+SET TRANSACTION ISOLATION LEVEL      READ UNCOMMITTED
+
+select STATUSRECEIPT, COUNT(STATUSRECEIPT) from inventtrans it
+/*join WMSORDERTRANS wo
+on wo.DATAAREAID = it.DATAAREAID
+and it.TRANSCHILDREFID = wo.ORDERID
+and it.INVENTREFTRANSID = wo.INVENTTRANSID */
+where it.DATAAREAID = '120'
+and TRANSREFID = '086_499859'
+--and STATUSISSUE in ( 0,1,3 ) 
+--and wo.POSTTRANSFER = 0
+--and it.TRANSCHILDTYPE = 1
+group by STATUSRECEIPT
+
+/*
+select statusissue, COUNT(statusissue) from inventtrans
+where DATAAREAID = 125
+and TRANSREFID = '086_050585'
+group by statusissue
+*/
