@@ -48,7 +48,7 @@ function Test-TcpConnection {
 
 # Iterar sobre cada enlace en la lista
 foreach ($link in $link_list) {
-    Write-Host "Verificando la conexión TCP a $link en el puerto $port..."
+    Write-Host "Verificando la conexion TCP a $link en el puerto $port..."
 
     $result = Test-TcpConnection -hostname $link -port $port
 
