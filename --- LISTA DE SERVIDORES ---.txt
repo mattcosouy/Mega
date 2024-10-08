@@ -1,0 +1,61 @@
+LISTA DE SERVIDORES:
+
+BD en Azure:
+
+mpdb005usa5.database.windows.net - Login con usuario de dominio 
+
+
+AMBIENTES 365 (BD local):
+
+uy-ml-corp-sql-managedinstance-ax.public.df14228417df.database.windows.net,3342 - UsaMlb
+
+MLAP014USA1 - EcuMlb
+
+LEAP012USA2 - Nuevo server DomLet (Paso 3)
+
+MPAP009MVD1\AXFACADECORP - Fachada 1
+
+MPAP002MVD5\AXFACADECORP - Fachada 2
+
+LEAP018PMA\AX2K9PANLETPRO - PanLet
+
+ROAP048STD\AX4DOMROWPRO - DomRow
+
+LEAP026GAZ - DomLet
+
+LEAP010USA2\AxGuaLetOLAP - GuaLet / CriLet / HndLet / NicLet / PanLet / SlvLet
+
+
+AX9:
+
+RYAP021BUE\AX2K9ARGRAYPRO - ArgRay
+
+MLAP105CAN2\AX2K9URUMPHPRO - UruMph
+
+MLAP105CAN2\AX2K9URUMPHPRE - UruMph PRE
+
+REAP010LIM\AX2K9PERROEPRO - PerRoe
+
+ITAP020MEX\AX2K9MEXITAPRO - MexIta
+
+MLAP021MVD1\AX2K9URUROEPRO - Megalabs Uruguay (Roemmers)
+
+SCAP023BOG\AX2K9COLSCAPRO - ColSca
+
+
+AX4:
+
+MLAP020CCS\AX4VENKLIPRO - VenKli
+
+ACAP014GYE\AX4ECUACRPRO - EcuAcr
+
+ACAP014GYE\AX4ECUACRPRE - EcuAcr PRE
+
+
+
+
+
+
+
+
+ 
