@@ -1,0 +1,14 @@
+-- Reducir logs AxDomRowOLAP
+
+USE AxDomRowOLAP
+GO
+ALTER DATABASE AxDomRowOLAP
+SET RECOVERY SIMPLE;
+GO
+--Reducimos el log de transacciones a  1 MB.
+DBCC SHRINKFILE(N'AxDomRowOLAP_log', 1, TRUNCATEONLY);
+GO
+-- Cambiamos nuevamente el modelo de recuperación a Completo.
+ALTER DATABASE AxDomRowOLAP
+SET RECOVERY FULL;
+GO
