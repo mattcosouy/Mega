@@ -1,0 +1,21 @@
+--Ver las columnas de una tabla y su longitud 
+
+SELECT 
+    COLUMN_NAME, 
+    DATA_TYPE, 
+    CHARACTER_MAXIMUM_LENGTH
+FROM 
+    INFORMATION_SCHEMA.COLUMNS
+WHERE 
+    TABLE_NAME = 'PBI_Clientes'
+ORDER BY 
+    COLUMN_NAME;
+	
+--Ver cual es la mayor longitud de un campo en una tabla 
+
+SELECT max (LEN(DirTipoDes)) FROM PBI_Clientes
+
+--Modificar la longitud del campo
+
+ALTER TABLE PBI_Clientes
+ALTER COLUMN DirTipoDes VARCHAR(100);
