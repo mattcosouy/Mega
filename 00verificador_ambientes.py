@@ -26,8 +26,8 @@ link_list = [
     "ax-dev7-3dev.eastus.cloudapp.azure.com",
     "ax-uruicldev-3dev.eastus.cloudapp.azure.com",
     "ax-uruiclgld-3dev.eastus.cloudapp.azure.com",
-    "ax-mexmlbdev-2dev.eastus.cloudapp.azure.com",
-    "ax-mexmlbgld-2dev.eastus.cloudapp.azure.com"
+    "ax-mexmlbdev-3dev.eastus.cloudapp.azure.com",
+    "ax-mexmlbgld-3dev.eastus.cloudapp.azure.com"
 ]
 
 alias_dict = {
@@ -45,7 +45,7 @@ alias_dict = {
     "ax-panletdev-3dev.eastus.cloudapp.azure.com": "PanLetDev",
     "ax-usamlbdev-2dev.eastus.cloudapp.azure.com": "UsaMlbDev",
     "ax-ecumlbdev-2dev.eastus.cloudapp.azure.com": "EcuMlbDev",
-    "ax-dev2-3dev.eastus.cloudapp.azure.com": "Dev2",
+    "ax-dev2-3dev.eastus.cloudapp.azure.com": "Dev2", 
     "ax-dev3-3dev.eastus.cloudapp.azure.com": "Dev3",
     "ax-dev4-3dev.eastus.cloudapp.azure.com": "Dev4",
     "ax-dev5-3dev.eastus.cloudapp.azure.com": "Dev5",
@@ -53,8 +53,8 @@ alias_dict = {
     "ax-dev7-3dev.eastus.cloudapp.azure.com": "Dev7",
     "ax-uruicldev-3dev.eastus.cloudapp.azure.com": "UruIclDev",
     "ax-uruiclgld-3dev.eastus.cloudapp.azure.com": "UruIclGld",
-    "ax-mexmlbdev-2dev.eastus.cloudapp.azure.com": "MexMlbDev",
-    "ax-mexmlbgld-2dev.eastus.cloudapp.azure.com": "MexMlbGld"
+    "ax-mexmlbdev-3dev.eastus.cloudapp.azure.com": "MexMlbDev",
+    "ax-mexmlbgld-3dev.eastus.cloudapp.azure.com": "MexMlbGld"
 }
 
 detener = False
